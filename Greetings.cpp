@@ -1,3 +1,3 @@
 cout << : "hello world ";
 cin << : %d ;
-hi world
+hi world its mohan
