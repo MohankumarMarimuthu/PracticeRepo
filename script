@@ -3,14 +3,14 @@ pipeline {
     stages{
         stage('build'){
             steps{
-                bat echo 'ex1'
-                bat echo 'ex2'
+                echo 'ex1'
+                echo 'ex2'
             }
         }
         stage('build1'){
             steps{
-                bat echo 'ex3'
-                bat echo 'ex4'
+                echo 'ex3'
+                echo 'ex4'
             }
         }
     }
