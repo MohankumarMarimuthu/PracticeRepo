@@ -3,8 +3,7 @@ pipeline {
     stages{
         stage('build'){
             steps{
-                echo 'ex1'
-                echo 'ex2'
+                bat 'git --version'
             }
         }
         stage('build1'){
