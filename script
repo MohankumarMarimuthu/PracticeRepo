@@ -1,16 +1,16 @@
 pipeline {
-    agents any
+    agent any
     stages{
         stage('build'){
             steps{
-                bat echo ex1
-                bat echo ex2
+                bat echo 'ex1'
+                bat echo 'ex2'
             }
         }
         stage('build1'){
             steps{
-                bat echo ex3
-                bat echo ex4
+                bat echo 'ex3'
+                bat echo 'ex4'
             }
         }
     }
