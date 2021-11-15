@@ -3,4 +3,5 @@
 void main(){
     printf("Hello world");
     scanf("%d", \n);
+    printf("hi,world");
 }
